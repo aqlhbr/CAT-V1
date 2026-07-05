@@ -1,4 +1,6 @@
+
 // Encapsulated Midtrans Simulator Object
+<script>
         const MidtransGateway = {
             selectSnapMethod: function(method) {
                 document.getElementById('snap-selected-area').classList.remove('hidden');
@@ -53,3 +55,4 @@
         function closeMidtransSnap() {
             document.getElementById('modal-midtrans-snap').classList.add('hidden');
         }
+</script>
