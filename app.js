@@ -1,4 +1,3 @@
-<script>
         // Database State (In-Memory mock database)
         let state = {
             users: [
@@ -566,5 +565,3 @@
             renderDashboard();
             renderAdminPanel();
         }
-
-</script>
